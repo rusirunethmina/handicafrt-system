@@ -60,7 +60,7 @@ Register - Gainloe
                 <div class="form-group row  justify-content-center ">
 
                     <div class="col-md-6">
-                        <select class="form-control" id="exampleFormControlSelect1">
+                        <select name="type" class="form-control" id="exampleFormControlSelect1">
                             <option>Select User Type</option>
                             <option>Seller</option>
                             <option>Buyer</option>

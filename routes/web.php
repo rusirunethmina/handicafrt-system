@@ -43,6 +43,8 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 
+Route::match(['get', 'post'], '/botman', 'BotManController@handle');
+
 /*
 |---------------------------------------------------------------------------
 |User  Routes Starts Here

@@ -25,7 +25,8 @@ class UserController extends Controller
     }
     public function index()
     {
-         return view('dashboards.user.index');
+         $user = Auth::user();
+         return view('dashboards.user.index',compact('user'));
     }
     public function open_profile()
     {
